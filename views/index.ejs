@@ -24,7 +24,15 @@
     <div id="map"></div>
   </div>
 </div>
-
++
 
 <!-- scripts -->
+<script>
+  var markers = <%- JSON.stringify(places) %>;
+
+</script>
+
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCt7zUwJET4z_2J6SAZ-xUDFkbzxrzWtQI&callback=initMap">
+</script>
 <script src="/js/script.js"></script>

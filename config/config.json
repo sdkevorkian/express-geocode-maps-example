@@ -1,7 +1,9 @@
 {
-  "development": {
-    "database": "geocode_example",
-    "host": "127.0.0.1",
-    "dialect": "postgres"
-  }
+    "development": {
+        "username": "sara",
+        "password": "psql",
+        "database": "geocode_example",
+        "host": "127.0.0.1",
+        "dialect": "postgres"
+    }
 }
